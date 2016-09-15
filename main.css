@@ -136,7 +136,7 @@ button {
 /*	padding: 25px 20%;
 */  	width:100%;
     height:100%;
-    background-color: #496DD1;
+    background-color: #006ac7;
     font-size: 1.1em;
     font-family: 'lato';
     text-align:center;
@@ -144,7 +144,7 @@ button {
 
 /******  SECOND CONTAINER *******/
 .second-container {
-	background-color: #496DD1;
+	background-color: #006ac7;
 /*	padding: 25px 20%;
 */    font-size: 1.1em;
 	border-bottom: 1px solid white;
@@ -157,7 +157,7 @@ button {
 
 /****** THIRD CONTAINER *******/
 .third-container {
-	background-color: #496DD1;
+	background-color: #006ac7;
 /*	padding: 25px 20%;
 */    font-size: 1.1em;
 	width:100%;

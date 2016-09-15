@@ -120,6 +120,12 @@ body {
 	font-size: 2em;
 }
 
+.testimonials {
+	font-size: 2.4em;
+	color: black;
+	text-align: center;
+}
+
 button {
 	color: white;
 	border: 2px solid white;

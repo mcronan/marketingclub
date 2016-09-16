@@ -232,7 +232,6 @@ button.two:hover {
 	background-color: #fff;
 }
 
-
 .spacer-60 {
 	height: 60px;
 }
@@ -275,6 +274,33 @@ button.two:hover {
 	background-color: #fff;
 }
 
+/***** TABLE *****/
+.the-table {
+	background-color: #fff;
+}
+
+.table-bordered,th, td {
+	font-size: 14px;
+	font-family: 'lato';
+	color: black;
+}
+
+.bigger {
+	font-size: 20px;
+	font-family: 'lato';
+	color: black;
+	padding: 20px;
+	text-align: center;
+}
+
+.fa-times-circle { 
+	color: red;
+	
+}
+
+.fa-check-circle {
+	color: green;
+}
 
 
 /****** MEDIA QUERIES ******/

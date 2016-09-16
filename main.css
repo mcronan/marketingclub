@@ -64,7 +64,7 @@ body {
 .expect {
 	color: #006ac7;
 	font-family: 'lato';
-	font-weight: bold;
+	font-weight: bold;test-padding
 }
 
 /**** MAIN CONTAINER *****/
@@ -227,6 +227,12 @@ button.two:hover {
 	height: 80px;
 }
 
+.spacer-80-white {
+	height: 80px;
+	background-color: #fff;
+}
+
+
 .spacer-60 {
 	height: 60px;
 }
@@ -238,6 +244,12 @@ button.two:hover {
 .spacer-20 {
 	height: 20px;
 }
+
+.spacer-20-white {
+	height: 20px;
+	background-color: #fff;
+}
+
 
 .spacer-10 {
 	height: 10px;
@@ -253,6 +265,15 @@ button.two:hover {
 	border-bottom: 1px solid grey;
 }
 
+.border-1 {
+	border-bottom: 1px solid grey;
+	background-color: #fff;
+}
+
+.border-3 {
+	border-bottom: 1px solid grey;
+	background-color: #fff;
+}
 
 
 

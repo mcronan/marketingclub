@@ -126,6 +126,19 @@ body {
 	text-align: center;
 }
 
+.testimonials-2 {
+	font-size: 1.6em;
+	color: black;
+	text-align: center;
+
+}
+
+.test-padding {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+
 button {
 	color: white;
 	border: 2px solid white;
@@ -135,6 +148,12 @@ button {
 	font-weight: lighter;
 	padding: 10px;
 	background: #006ac7;
+}
+
+button:hover {
+	color: #006ac7;
+	border: 2px solid #006ac7;
+	background: white;
 }
 
 /****** BUTTON 2 *****/

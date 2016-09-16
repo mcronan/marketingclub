@@ -276,7 +276,6 @@ button.two:hover {
 
 /***** TABLE *****/
 .the-table {
-	background-color: #fff;
 }
 
 .table-bordered,th, td {
@@ -304,6 +303,10 @@ button.two:hover {
 	font-size: 2em;
 }
 
+.browse-tasks {
+	background-color: #fff;
+
+}
 
 /****** MEDIA QUERIES ******/
 @media (max-width: 600px) {

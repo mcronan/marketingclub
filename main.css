@@ -295,11 +295,13 @@ button.two:hover {
 
 .fa-times-circle { 
 	color: red;
+	font-size: 2em;
 	
 }
 
 .fa-check-circle {
 	color: green;
+	font-size: 2em;
 }
 
 

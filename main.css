@@ -33,6 +33,7 @@ body {
 	vertical-align:middle;
 }
 
+
 /*** BAR ****/
 .bar {
 	color: #006ac7;
@@ -52,6 +53,7 @@ body {
 	color: #006ac7;
 	text-align: center;
 	font-size: 2.5em;
+	margin-bottom: 15px;
 }
 
 .features-writing {
@@ -177,38 +179,33 @@ button.two:hover {
 
 /******  FIRST CONTAINER *******/
 .first-container {
-/*	padding: 25px 20%;
-*/  	width:100%;
-    height:100%;
-    background-color: #006ac7;
+	background-color: #006ac7;
     font-size: 1.1em;
-    font-family: 'lato';
-    text-align:center;
+/*    height: 350px;
+*/    font-family: 'lato';
+    text-align: center;
 }
 
 /******  SECOND CONTAINER *******/
 .second-container {
 	background-color: #006ac7;
-/*	padding: 25px 20%;
-*/    font-size: 1.1em;
+    font-size: 1.1em;
 	border-bottom: 1px solid white;
-	width:100%;
-    height:100%;
-	font-family: 'lato';
-	text-align:center;
-
+/*	height: 350px;
+*/	font-family: 'lato';
+	text-align: center;
+/*	width: 100%;
+*/
 }
 
 /****** THIRD CONTAINER *******/
 .third-container {
 	background-color: #006ac7;
-/*	padding: 25px 20%;
-*/    font-size: 1.1em;
-	width:100%;
-    height:100%;
-	border-bottom: 1px solid white;
+    font-size: 1.1em;
+/*	height: 350px;
+*/	border-bottom: 1px solid white;
 	font-family: 'lato';
-	text-align:center;
+	text-align: center;
 }
 
 /****** FOOTER *******/
@@ -232,6 +229,10 @@ button.two:hover {
 	background-color: #fff;
 }
 
+.space-min.spacer-80 {
+	height: 10px;
+}
+
 .spacer-60 {
 	height: 60px;
 }
@@ -248,7 +249,6 @@ button.two:hover {
 	height: 20px;
 	background-color: #fff;
 }
-
 
 .spacer-10 {
 	height: 10px;
@@ -292,6 +292,10 @@ button.two:hover {
 	text-align: center;
 }
 
+.marketing-club {
+	color: #006ac7;
+}
+
 .fa-times-circle { 
 	color: red;
 	font-size: 2em;
@@ -311,17 +315,20 @@ button.two:hover {
 /****** MEDIA QUERIES ******/
 @media (max-width: 600px) {
 
+	.the-table {
+		display: none;
+	}
+
+	.spacer-80-white {
+		height: 40px;
+	}
+
+	.bar {
+		margin-left: 25px;
+	}
+
 	.motto,.discount {
 		text-align: center;
-	}
-
-	#mce-EMAIL {
-		width: 300px;
-		margin-right: 3px;
-	}
-
-	#mc-embedded-subscribe {
-		width: 300px;
 	}
 
 	.spacer-10 {
@@ -352,25 +359,46 @@ button.two:hover {
 		margin-bottom: 20px;
 	}
 
-	#mc_embed_signup {
-		text-align: center;
-	}
-
-	.first-container, .second-container, .third-container, .fourth-container {
-		height: 300px;
-		font-size: 1.2em;
-
+	.first-container, .second-container, .third-container {
+		font-size: 16px;
+		padding: 25px 10%;
 	}
 
 	.spacer-10-middle {
 		height: 0px;
 	}
 
+	.motto {
+		font-size: 2em;
+	}
+
+	.motto-2 {
+		font-size: 1.7em;
+	}
+
+	.main-container {
+		height: 450px;
+	}
+
+	.neachtains {
+		margin-bottom: 20px;
+	}
+
+	.testimonials-2 {
+		font-size: 1.4em;
+	}
+
+	.features-writing {
+		padding-left: 40px;
+		padding-right: 40px;
+
+	}
+
 }
 
 
 /***** MEDIA QUERIES ******/
-@media (min-width: 600px) {
+@media (max-width: 768px) {
 	.title {
 		color: red;
 	}
@@ -389,7 +417,7 @@ button.two:hover {
 		display: none;
 	}
 
-	.first-container, .second-container, .third-container, .fourth-container {
+	.first-container, .second-container, .third-container {
 		height: 200px;
 	}
 
@@ -401,10 +429,6 @@ button.two:hover {
 		height: 0px;
 	}
 
-	#mc_embed_signup {
-		text-align: center;
-	}
-
 	.motto,.discount {
 		text-align: center;
 	}
@@ -412,14 +436,14 @@ button.two:hover {
 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 900px) {
 	
 	.spacer-10-middle {
 		height: 10px;
 	}
 
-	.first-container, .second-container, .third-container, .fourth-container {
-		height: 305px;
+	.first-container, .second-container, .third-container {
+		height: 200px;
 		padding: 25px 10%;
 	}
 
@@ -443,11 +467,11 @@ button.two:hover {
 
 }
 
-@media(min-width: 900px) {
+@media(max-width: 1220px) {
 	.first-container, .second-container, .third-container, .fourth-container {
-		height: 305px;
-		padding: 25px 20%;
-	}
+		height: 350px;
+/*		padding: 25px 10%;
+*/	}
 	.spacer-40.bottom {
 		height: 40px;
 	}
@@ -468,12 +492,11 @@ button.two:hover {
 
 }
 
-@media (min-width: 1220px) {
-	
+@media (max-width: 1800px) {
 
 	.first-container, .second-container, .third-container, .fourth-container {
-		height: 240px;
 		padding: 25px 20%;
+		height: 320px;
 	}
 
 	.spacer-40.bottom {

@@ -122,6 +122,11 @@ body {
 	font-size: 2em;
 }
 
+/*CARD*/
+.feature-title-card {
+	font-size: 1.2em;
+}
+
 .testimonials {
 	font-size: 2.4em;
 	color: black;
@@ -132,7 +137,6 @@ body {
 	font-size: 1.6em;
 	color: black;
 	text-align: center;
-
 }
 
 .test-padding {
@@ -179,33 +183,32 @@ button.two:hover {
 
 /******  FIRST CONTAINER *******/
 .first-container {
-	background-color: #006ac7;
     font-size: 1.1em;
-/*    height: 350px;
-*/    font-family: 'lato';
+    font-family: 'lato';
     text-align: center;
+    height: 300px;
+    width: 100%;
+    background: rgba(0,106,199,1);
+	background: -moz-linear-gradient(left, rgba(0,106,199,1) 0%, rgba(0,106,199,0.84) 65%, rgba(0,81,168,0.75) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,106,199,1)), color-stop(65%, rgba(0,106,199,0.84)), color-stop(100%, rgba(0,81,168,0.75)));
+	background: -webkit-linear-gradient(left, rgba(0,106,199,1) 0%, rgba(0,106,199,0.84) 65%, rgba(0,81,168,0.75) 100%);
+	background: -o-linear-gradient(left, rgba(0,106,199,1) 0%, rgba(0,106,199,0.84) 65%, rgba(0,81,168,0.75) 100%);
+	background: -ms-linear-gradient(left, rgba(0,106,199,1) 0%, rgba(0,106,199,0.84) 65%, rgba(0,81,168,0.75) 100%);
+	background: linear-gradient(to right, rgba(0,106,199,1) 0%, rgba(0,106,199,0.84) 65%, rgba(0,81,168,0.75) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006ac7', endColorstr='#0051a8', GradientType=1 );
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 1.2em;
+	border-radius: 5px;
 }
 
-/******  SECOND CONTAINER *******/
-.second-container {
-	background-color: #006ac7;
-    font-size: 1.1em;
-	border-bottom: 1px solid white;
-/*	height: 350px;
-*/	font-family: 'lato';
-	text-align: center;
-/*	width: 100%;
-*/
+.fa-facebook-square, .fa-twitter-square, .fa-envelope-o, .fa-file-text-o{
+	font-size: 2.5em;
 }
 
-/****** THIRD CONTAINER *******/
-.third-container {
-	background-color: #006ac7;
-    font-size: 1.1em;
-/*	height: 350px;
-*/	border-bottom: 1px solid white;
-	font-family: 'lato';
-	text-align: center;
+.feature-text {
+	font-size: 15px;
 }
 
 /****** FOOTER *******/
@@ -495,8 +498,8 @@ button.two:hover {
 @media (max-width: 1800px) {
 
 	.first-container, .second-container, .third-container, .fourth-container {
-		padding: 25px 20%;
-		height: 320px;
+/*		padding: 25px 20%;
+*/		height: 320px;
 	}
 
 	.spacer-40.bottom {

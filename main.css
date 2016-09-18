@@ -135,7 +135,7 @@ a:hover {
 
 /* FEATURE BOX*/
 .feature-box {
-	width: 200px;
+	width: 210px;
 	height: 300px;
 	background-color: #F2F2F2;
 	color: #4C4C4C;
@@ -143,7 +143,7 @@ a:hover {
 	top: 250px;
 	right: 180px;
 	font-size: 15px;
-	padding: 22px 13px 13px 13px;
+	padding: 22px 15px 13px 15px;
 }
 
 .fix-feature-box {

@@ -146,6 +146,15 @@ a:hover {
 	padding: 22px 13px 13px 13px;
 }
 
+.fix-feature-box {
+	position: fixed;
+	}
+
+.wrap {
+	position: relative;
+
+}
+
 .subscribe {
 	height: 65px;
 	width: 170px;

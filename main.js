@@ -19,9 +19,9 @@ $(document).ready(function() {
 	// Shopping cart
 	var moltin = new Moltin({publicId:'oUkApbkvdYTJ84K9ysS3W8ir6DIEEkwi7V6L5s7RrL'})
 
-	// moltin.Authenticate(function() {
-	// // Make your calls here
-	// });
+	moltin.Authenticate(function() {
+	 console.log("authenticated")
+	});
 
 var product = moltin.Product.Find({slug: 'social'});
 

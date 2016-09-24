@@ -15,15 +15,18 @@ $(document).ready(function() {
 	});
 
 	// Shopping cart
-	var moltin = new Moltin({publicId: 'oUkApbkvdYTJ84K9ysS3W8ir6DIEEkwi7V6L5s7RrL
-'});
+	var moltin = new Moltin({publicId: 'oUkApbkvdYTJ84K9ysS3W8ir6DIEEkwi7V6L5s7RrL'})
 
 	moltin.Authenticate(function() {
 	// Make your calls here
 	});
 
 var product = moltin.Product.Find({slug: 'social'});
-var item = moltin.Cart.Insert(product.id, 1, null);
+
+var item = moltin.Cart.Insert(product.id, 1, null, function(card {
+  console.log("hello")
+}));
+
 var cart = moltin.Cart.Contents();
 
 var order = moltin.Cart.Complete({

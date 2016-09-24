@@ -21,7 +21,13 @@
     <link rel="shortcut icon" href="favicon.png">
   </head>
   <body>
+<script>
+var moltin = new Moltin({publicId:'oUkApbkvdYTJ84K9ysS3W8ir6DIEEkwi7V6L5s7RrL'})
 
+  moltin.Authenticate(function() {
+   console.log("authenticated")
+  });
+</script>
   <!-- TOP BAR -->
     <div class="bar">
       <div class="row">

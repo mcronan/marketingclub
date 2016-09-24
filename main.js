@@ -27,6 +27,7 @@ var item = moltin.Cart.Insert(product.id, 1, null, function(card {
   console.log("hello")
 }));
 
+
 var cart = moltin.Cart.Contents();
 
 var order = moltin.Cart.Complete({

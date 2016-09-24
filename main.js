@@ -14,6 +14,8 @@ $(document).ready(function() {
 		}
 	});
 
+  });
+
 	// Shopping cart
 	var moltin = new Moltin({publicId:'oUkApbkvdYTJ84K9ysS3W8ir6DIEEkwi7V6L5s7RrL'})
 
@@ -62,4 +64,4 @@ var checkout = moltin.Checkout.Payment('purchase', order.id, {
 });
 
 
-});
+

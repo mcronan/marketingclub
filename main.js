@@ -23,9 +23,9 @@ $(document).ready(function() {
 
 var product = moltin.Product.Find({slug: 'social'});
 
-var item = moltin.Cart.Insert(product.id, 1, null, function(card {
+var item = moltin.Cart.Insert(product.id, 1, null, function(cart) {
   console.log("hello")
-}));
+});
 
 
 var cart = moltin.Cart.Contents();

@@ -4,15 +4,15 @@ var moltin = new Moltin({publicId:'oUkApbkvdYTJ84K9ysS3W8ir6DIEEkwi7V6L5s7RrL'})
        console.log("authenticated")
       });
 
-    var product = moltin.Product.Find({slug: 'social'});
+    var product = moltin.product.find({slug:'social'});
 
-    var item = moltin.Cart.Insert(product.id, 1, null, function(cart) {
+    var item = moltin.cart.insert(product.id, 1, null, function(cart) {
       console.log("hello")
     });
 
-    var cart = moltin.Cart.Contents();
+    var cart = moltin.cart.contents();
 
-    var order = moltin.Cart.Complete({
+    var order = moltin.cart.complete({
       gateway: 'dummy',
       customer: {
         first_name: 'Jon',
@@ -34,7 +34,7 @@ var moltin = new Moltin({publicId:'oUkApbkvdYTJ84K9ysS3W8ir6DIEEkwi7V6L5s7RrL'})
       shipping: 'free_shipping'
     });
 
-    var checkout = moltin.Checkout.Payment('purchase', order.id, {
+    var checkout = moltin.checkout.payment('purchase', order.id, {
       data: {
         number:       '4242424242424242',
         expiry_month: '02',

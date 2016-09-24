@@ -6,7 +6,7 @@ var moltin = new Moltin({publicId:'oUkApbkvdYTJ84K9ysS3W8ir6DIEEkwi7V6L5s7RrL'})
 
     var product = moltin.product.find({slug:'social'});
 
-    var item = moltin.cart.insert(product.id, 1, null, function(cart) {
+    var item = moltin.cart.insert(product[0].id, 1, null, function(cart) {
       console.log("hello")
     });
 

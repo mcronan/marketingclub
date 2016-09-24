@@ -24,6 +24,7 @@ body.marketing-tasks {
 a {
 	color: inherit;
 }
+
 a:active {
 	text-decoration: none;
 	color: inherit;
@@ -33,6 +34,10 @@ a:active {
 a:hover {
 	text-decoration: none;
 	color: inherit;
+}
+
+li {
+	color: #000;
 }
 
 /*****  Centering *****/
@@ -132,7 +137,6 @@ a:hover {
 }
 
 /*PROFILE*/
-
 /* FEATURE BOX*/
 .feature-box {
 	width: 210px;

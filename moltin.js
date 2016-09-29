@@ -4,7 +4,7 @@ var moltin = new Moltin({publicId:'oUkApbkvdYTJ84K9ysS3W8ir6DIEEkwi7V6L5s7RrL'})
        console.log("authenticated")
       });
 
-    var product = moltin.Product.find({slug:'social'});
+    var product = moltin.product.find({slug:'social'});
 
     var item = moltin.cart.insert(product[0].id, 1, null, function(cart) {
       console.log("hello")

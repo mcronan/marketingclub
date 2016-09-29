@@ -70,12 +70,29 @@ li {
 	color: #006ac7;
 	font-weight: bold;
 	padding-top: 16px;
-	height: 60px;
+	height: 70px;
 	font-size: 1.4em;
 	border-bottom: 1px solid rgba(0,106,199,1);
 	background-color: #F2F2F2;
+}
+
+
+/**** SHOPPING CART*******/
+.snipcart-summary {
+	color: #006ac7;
+	font-size: 16px;
+}
+
+.fa-shopping-cart {
+	font-size: 35px;
+	padding-left: 50px;
 
 }
+
+.snipcart-add-item {
+	margin-left: 3px;
+}
+
 
 /*** FEATURES ****/
 .features {
@@ -140,7 +157,7 @@ li {
 /* FEATURE BOX*/
 .feature-box {
 	width: 210px;
-	height: 300px;
+	height: 312px;
 	background-color: #F2F2F2;
 	color: #4C4C4C;
 	position: absolute;
@@ -537,7 +554,6 @@ button.two:hover {
 	}
 
 }
-
 
 /***** MEDIA QUERIES ******/
 @media (max-width: 768px) {

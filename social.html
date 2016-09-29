@@ -17,16 +17,32 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <!-- <meta name="google-site-verification" content="vk_pjDCUo96qXiNHPhXtjAVNGRMsm-GYDgr2NbErhgU"> -->
     <link rel="shortcut icon" href="favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="OTJiZGFmNGEtNzU3Zi00MjIwLTkwNzItMzQzNWIxNTYyOTllNjM2MTA3Nzk5MzcyOTY4Mzcz" id="snipcart" data-autopop="false"></script>
+    <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+
   </head>
 
   <body class="marketing-tasks">
   <!-- TOP BAR -->
     <div class="bar-2">
       <div class="row">
-        <div class="col-sm-offset-1 col-sm-3">
+        <div class="col-sm-offset-1 col-sm-5">
           <a href="home.html"><p> Marketing Club</p></a>
         </div>
+        <div class="col-sm-offset-2 col-sm-1">
+          <a href="#" class="snipcart-checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          
+        </div>
+        <div class="col-sm-2">
+        <div class="snipcart-summary">
+            Number of items: <span class="snipcart-total-items"></span>
+        <br>
+          Total price: <span class="snipcart-total-price"></span>
+          </div>
+        </div>
       </div>
+      </a>
     </div>
 <div class="wrap" id="wrap">
   <div class="the-container">
@@ -52,24 +68,48 @@
     
     <div class="spacer-20"></div>
  
-    <div class="subscribe">
-      <p id="sub"> Subscribe </p> 
-      <p id="sub-price"> €150 p/m </p> 
-    </div>
-  </div>
-</div>
+<!--     <div class="subscribe">
+ --><!--       <p id="sub"> Subscribe </p> 
+ -->      <!-- SNIPCART -->
+    <button
+      class="snipcart-add-item"
+      data-item-id="2"
+      data-item-name="Social Media"
+      data-item-price="3.00"
+      data-item-description="Subscribe"
+      data-item-url="http://myapp.com/products/bacon">
+     Subscribe €150
+    </button>
+<!--       <p id="sub-price"> €150 p/m </p> 
+
+ -->  </div>
 
   <div class="spacer-40"></div>
 
   <div class="row">
     <div class="col-sm-offset-1 col-sm-6">
       <p class="about"> About this service </p>
-      <div data-moltin-product="1343769076417167937"></div>
+    
+    <!-- STRIPE -->
+    <!-- <form action="/your-charge-code" method="POST">
+      <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="pk_test_2ULIWVo2R6Tjd5MckkZ6aS7R"
+          data-amount="999"
+          data-name="TRUSTYPRODUCTS.CO"
+          data-description="Widget"
+          data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+          data-locale="auto"
+          data-currency="eur">
+      </script>
+    </form> -->
+
       <p class="about-text">Bro ipsum dolor sit amet epic brain bucket punter free ride misty cruiser first tracks, ripper brain bucket gondy fully saddle bunny slope heli. Bike crunchy method grunt ollie, epic BB big ring bonk skid lid. Pow manny schwag gear jammer cornice giblets Bike trucks. Wheels huck dust on crust bowl bomb gaper taco newschooler stoked booter brain bucket sucker hole gondy face shots heli. Road rash hammer bump pow pow, gapers gaper gaper wheelie sketching white room death cookies rig. </p>
     </div>
   </div>
   
   <div class="spacer-40"></div>
+
 
   <div class="row">
     <div class="col-sm-offset-1 col-sm-6">
